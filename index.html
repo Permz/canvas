@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canvas</title>
-  <style type="text/css">
-    canvas {
-      border: black solid 1px;
-    }
-    body {
-      margin: 0;
-    }
-  </style>
-</head>
-<body>
-  <canvas></canvas>
-  <script src="canvas.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="assets/app.css">
+  </head>
+  <body>
+    <form name="modeForm">
+      <input id="create" type="radio" name="mode" value="create" checked="checked"> 作成
+      <input id="select" type="radio" name="mode" value="select"> 選択
+    </form>
+    <div id="canvasWrapper">
+      <canvas id="task1" width="600" height="400"></canvas>
+    </div>
+    <script src="assets/main.js"></script>
+  </body>
 </html>
