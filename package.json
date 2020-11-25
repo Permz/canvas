@@ -1,0 +1,12 @@
+{
+  "name": "jstask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Permz/canvas.git",
+  "author": "Permz <sakanaquarium0mashim0@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "type": "module" 
+  }
+}

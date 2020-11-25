@@ -1,4 +1,4 @@
-import $ from 'jquery';
+import $ from '../node_modules/jquery/dist/jquery.slim.js';
 
 var canvas = document.getElementById('task1');
 var ctx = canvas.getContext('2d');
@@ -10,13 +10,13 @@ var circleRadius = 30;
 var outerLineWidth = circleRadius + 1;
 
 $(function() {
-  $('[name="btn"]:radio').change( function() {
-    if($('[id=a]').prop('checked')){
-      $('.text').fadeOut();
-      $('.text01').fadeIn();
-    } else if ($('[id=b]').prop('checked')) {
-      $('.text').fadeOut();
-      $('.text02').fadeIn();
+  $('[name="name"]:radio').change( function() {
+    if($('[id=create]').prop('checked')){
+      // create event
+      
+    } else if ($('[id=select]').prop('checked')) {
+      // select event
+      
     } 
   });
 });
